@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_section_modules",
+  "info": {
+    "name": "SectionModules",
+    "icon": "boxes"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Módulos deste curso"
+    },
+    "module": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.module",
+      "required": true,
+      "min": 2
+    }
+  }
+}

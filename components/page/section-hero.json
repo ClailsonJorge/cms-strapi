@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_section_heroes",
+  "info": {
+    "name": "SectionHero",
+    "icon": "chalkboard-teacher"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

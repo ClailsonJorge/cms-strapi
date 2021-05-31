@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_answers",
+  "info": {
+    "name": "answer",
+    "icon": "hand-pointer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "answer": {
+      "type": "richtext",
+      "required": true
+    },
+    "question": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

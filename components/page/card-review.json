@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_card_reviews",
+  "info": {
+    "name": "cardReview",
+    "icon": "outdent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

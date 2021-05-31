@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_list_items",
+  "info": {
+    "name": "listItem",
+    "icon": "th-list"
+  },
+  "options": {},
+  "attributes": {
+    "concept": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

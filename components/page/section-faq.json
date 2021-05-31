@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_section_faqs",
+  "info": {
+    "name": "SectionFaq",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "FAQ",
+      "required": true
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.answer",
+      "required": true,
+      "min": 4
+    }
+  }
+}

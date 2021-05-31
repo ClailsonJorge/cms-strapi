@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_page_pricing_boxes",
+  "info": {
+    "name": "PricingBox",
+    "icon": "file-invoice-dollar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "totalPrice": {
+      "type": "integer",
+      "required": true
+    },
+    "numberInstallment": {
+      "type": "integer",
+      "required": true,
+      "default": 1
+    },
+    "priceInstallment": {
+      "type": "integer",
+      "required": true,
+      "default": 1
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button",
+      "required": true
+    },
+    "benefits": {
+      "type": "richtext",
+      "default": "Create items as bullet list",
+      "required": true
+    }
+  }
+}

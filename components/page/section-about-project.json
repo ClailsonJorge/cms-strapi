@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_section_about_projects",
+  "info": {
+    "name": "SectionAboutProject",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Tecnologias utilizadas"
+    },
+    "techs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.techs",
+      "required": true
+    }
+  }
+}

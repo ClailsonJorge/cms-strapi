@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_section_aboutuses",
+  "info": {
+    "name": "SectionAboutUs",
+    "icon": "smile",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Quem somos nós?"
+    },
+    "authors": {
+      "collection": "authors"
+    }
+  }
+}

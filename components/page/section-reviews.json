@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_section_reviews",
+  "info": {
+    "name": "SectionReviews",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Junte-se a mais de 200 mil alunos",
+      "required": true
+    },
+    "review": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.card-review",
+      "required": true,
+      "min": 2
+    }
+  }
+}

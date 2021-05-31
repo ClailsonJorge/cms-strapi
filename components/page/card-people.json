@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_page_card_people",
+  "info": {
+    "name": "cardPeople",
+    "icon": "grin-tongue"
+  },
+  "options": {},
+  "attributes": {
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true
+    },
+    "socialNetworks": {
+      "type": "enumeration",
+      "enum": [
+        "Facebook",
+        "LinkedIn",
+        "GitHub",
+        "Twitter"
+      ],
+      "required": true,
+      "default": "Facebook"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

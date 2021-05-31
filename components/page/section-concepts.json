@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_section_concepts",
+  "info": {
+    "name": "SectionConcepts",
+    "icon": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Conceitos que você irá aprender"
+    },
+    "concepts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.list-item",
+      "required": true,
+      "min": 3
+    }
+  }
+}
