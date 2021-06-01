@@ -10,14 +10,13 @@
     "title": {
       "type": "string",
       "default": "FAQ",
-      "required": true
+      "required": false
     },
     "questions": {
       "type": "component",
       "repeatable": true,
       "component": "page.answer",
-      "required": true,
-      "min": 4
+      "required": false
     }
   }
 }

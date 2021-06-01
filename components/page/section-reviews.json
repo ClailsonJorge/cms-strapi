@@ -10,13 +10,13 @@
     "title": {
       "type": "string",
       "default": "Junte-se a mais de 200 mil alunos",
-      "required": true
+      "required": false
     },
     "review": {
       "type": "component",
       "repeatable": true,
       "component": "page.card-review",
-      "required": true,
+      "required": false,
       "min": 2
     }
   }

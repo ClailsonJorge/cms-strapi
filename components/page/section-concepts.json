@@ -9,15 +9,14 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true,
+      "required": false,
       "default": "Conceitos que você irá aprender"
     },
     "concepts": {
       "type": "component",
       "repeatable": true,
       "component": "page.list-item",
-      "required": true,
-      "min": 3
+      "required": false
     }
   }
 }

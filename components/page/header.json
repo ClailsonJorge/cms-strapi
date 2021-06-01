@@ -9,17 +9,17 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "description": {
       "type": "text",
-      "required": true
+      "required": false
     },
     "button": {
       "type": "component",
       "repeatable": false,
       "component": "page.button",
-      "required": true
+      "required": false
     },
     "image": {
       "model": "file",
@@ -28,7 +28,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true,
+      "required": false,
       "pluginOptions": {}
     }
   }

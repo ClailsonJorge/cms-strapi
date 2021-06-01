@@ -2,18 +2,19 @@
   "collectionName": "components_page_buttons",
   "info": {
     "name": "Button",
-    "icon": "calendar-check"
+    "icon": "calendar-check",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
-      "required": true,
+      "required": false,
       "default": "Comprar"
     },
     "url": {
       "type": "string",
-      "required": true
+      "required": false
     }
   }
 }
